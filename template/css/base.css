@@ -1,0 +1,37 @@
+:root {
+  --main-color: #dc3545;
+}
+body {
+  font-family: "Assistant", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* str navbar */
+/* end navbar */
+/* str section */
+.profile-card {
+  position: relative;
+  width: 25rem !important;
+  height: 25rem !important;
+  overflow: hidden;
+  margin: auto;
+}
+.profile-image {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  overflow: hidden;
+  z-index: 999;
+}
+.inner {
+  max-height: 250px;
+  overflow: hidden;
+}
+.inner img {
+  transition: all 1.5s ease;
+}
+.inner:hover img {
+  transform: scale(1.5);
+}
+/* end section */
